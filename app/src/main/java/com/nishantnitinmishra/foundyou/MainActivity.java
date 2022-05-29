@@ -81,10 +81,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(checkInternetConnectivity()){
                     try {
-                        reference.child("data").setValue(dataString);
-                        showSuccessDialog("Your Device Data is successfully sync to Global Database.","Success !");
+                        if (dataString.length()>10){
+                            reference.child("data").setValue(dataString);
+                            showSuccessDialog("Your Device Data is successfully sync to Global Database.","Success !");
+                        }
+                        else{
+                            showSuccessDialog("There is no data to upload.","Error !...");
+                        }
                     }catch(Exception e){
-                        Toast.makeText(context, "Error !..."+e.getMessage(), Toast.LENGTH_SHORT).show();
+                        showSuccessDialog("Server error.","Error !...");
                     }
                 }else{
                     showSuccessDialog("Internet Connection is not Available !","Oops !...");
@@ -191,14 +196,14 @@ public class MainActivity extends AppCompatActivity {
         detailBtn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                showSuccessDialog("Total No. of missing and found peoples visible.","Details :");
+                showSuccessDialog("Total No. of missing and found peoples visible.","DETAILS :");
                 return false;
             }
         });
         restartBtn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                showSuccessDialog("Restart your app for better performance.","Restart :");
+                showSuccessDialog("Refresh your app for better performance.","REFRESH :");
                 return false;
             }
         });

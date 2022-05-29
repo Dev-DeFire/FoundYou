@@ -63,7 +63,6 @@
             android:layout_gravity="center"
             android:layout_margin="50dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="#FAD3D0"
             app:cardCornerRadius="25dp"
             app:cardElevation="2dp">
 
@@ -81,7 +80,7 @@
                     android:layout_weight="1"
                     android:fontFamily="serif-monospace"
                     android:gravity="center"
-                    android:text="Not Found :"
+                    android:text="Loading..."
                     android:textAlignment="center"
                     android:textColor="#F44336"
                     android:textSize="22sp"
@@ -95,7 +94,7 @@
                     android:layout_weight="1"
                     android:fontFamily="monospace"
                     android:gravity="center"
-                    android:text="Not Detected please add person face"
+                    android:text="Please wait."
                     android:textColor="#F44336"
                     android:textSize="15sp" />
             </LinearLayout>
@@ -109,6 +108,7 @@
             android:layout_gravity="end"
             android:layout_margin="24dp"
             android:foregroundGravity="center"
+            android:paddingBottom="20dp"
             android:src="@drawable/ic_baseline_arrow_back_ios_24"
             app:backgroundTint="@color/themeColor"
             app:borderWidth="0dp"

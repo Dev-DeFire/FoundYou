@@ -153,6 +153,7 @@
             android:layout_gravity="end"
             android:layout_margin="24dp"
             android:foregroundGravity="center"
+            android:paddingBottom="20dp"
             android:src="@drawable/ic_baseline_arrow_back_ios_24"
             app:backgroundTint="@color/themeColor"
             app:borderWidth="0dp"

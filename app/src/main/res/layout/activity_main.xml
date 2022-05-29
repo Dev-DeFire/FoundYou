@@ -432,7 +432,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center"
-                        android:text="RESTART"
+                        android:text="REFRESH"
                         android:textAlignment="center"
                         android:textColor="#2E023E"
                         android:textSize="10sp" />
