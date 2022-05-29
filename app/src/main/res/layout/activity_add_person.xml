@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundneww"
+    tools:context=".AddPerson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:padding="20dp"></androidx.camera.view.PreviewView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rotateyourCameraBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:foreground="@drawable/flipcamera"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp"
+                tools:ignore="DuplicateClickableBoundsCheck"></androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/galleryBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:foreground="@drawable/ic_baseline_photo_library_24"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addNewFaceBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:foreground="@drawable/ic_baseline_add_circle_outline_24"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Face Preview"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/themeColor"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="203dp"
+                    android:layout_height="200dp"
+                    android:background="@color/themeBg"
+                    android:elevation="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:srcCompat="@android:drawable/screen_background_light_transparent" />
+
+                <TextView
+                    android:id="@+id/hintTextView"
+                    android:layout_width="164dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:hint="Add Face"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView"
+                    app:layout_constraintHorizontal_bias="0.589"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.502" />
+
+                <TextView
+                    android:id="@+id/instructionTextView"
+                    android:layout_width="164dp"
+                    android:layout_height="180dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView"
+                    app:layout_constraintHorizontal_bias="0.487"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.914" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="24dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            app:backgroundTint="@color/themeColor"
+            app:borderWidth="0dp"
+            app:tint="@null"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

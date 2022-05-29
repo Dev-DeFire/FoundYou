@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundneww"
+    tools:context=".FindPerson">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="279dp">
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/previewView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.camera.view.PreviewView>
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rotateCameraBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:elevation="1dp"
+            android:foreground="@drawable/flipcamera"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp"
+            tools:ignore="DuplicateClickableBoundsCheck"></androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Recognized Face"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/judgementcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FAD3D0"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/foundTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="center"
+                    android:text="Not Found :"
+                    android:textAlignment="center"
+                    android:textColor="#F44336"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/resultTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="Not Detected please add person face"
+                    android:textColor="#F44336"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="24dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            app:backgroundTint="@color/themeColor"
+            app:borderWidth="0dp"
+            app:tint="@null"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/button_background_blue.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/circlebackground.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/custom_dialogbg.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/gradient_bg.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/gradient_theme_oval.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/heade_bg.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/header_bg.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_cloud_upload_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_baseline_photo_library_24.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_add_person.xml" value="0.264" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_find_person.xml" value="0.25" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_home_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/layout_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/slider_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/layout/successlayout_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/mnish/AndroidStudioProjects/FoundYou/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397629104440",
+    "project_id": "foundyou-2f57b",
+    "storage_bucket": "foundyou-2f57b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397629104440:android:7cb8340eef628b360de1cd",
+        "android_client_info": {
+          "package_name": "com.nishantnitinmishra.foundyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397629104440-sfkgluimbp0g8qurakiqda2kmqeehv4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKRpyYLWTyMHivyN1ncnr4U5ZEpu80bWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397629104440-sfkgluimbp0g8qurakiqda2kmqeehv4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
