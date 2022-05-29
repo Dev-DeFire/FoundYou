@@ -1,6 +1,6 @@
 # FoundYou
 Microsoft Engage mentee 2022 project
-### Application file : [Face_Recognition.apk](https://drive.google.com/drive/folders/1n_LXN9lFrkodrha6FefRCesC5PyC8rOU?usp=sharing)
+### Application file : [FoundYou.apk](https://drive.google.com/drive/folders/1n_LXN9lFrkodrha6FefRCesC5PyC8rOU?usp=sharing)
 # Real Time Face Recognition App using TfLite
 
 A minimalistic Face Recognition module which can be easily incorporated in any Android project.
