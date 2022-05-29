@@ -96,9 +96,9 @@ public class FindPerson extends AppCompatActivity {
     CardView camera_switch,judgementContainer;
     CameraSelector cameraSelector;
     float distance= 1.0f;
-    boolean start=true,flipX=false;
+    boolean start=true,flipX=true;
     Context context=FindPerson.this;
-    int cam_face=CameraSelector.LENS_FACING_BACK; //Default Back Camera
+    int cam_face=CameraSelector.LENS_FACING_FRONT; //Default Back Camera
 
     int[] intValues;
     int inputSize=112;  //Input size for model

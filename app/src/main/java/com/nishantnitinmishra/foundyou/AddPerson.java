@@ -99,8 +99,8 @@ public class AddPerson extends AppCompatActivity {
     CardView camera_switch, loadFrmInternal,add_face;
     CameraSelector cameraSelector;
     float distance= 1.0f;
-    boolean start=true,flipX=false;
-    int cam_face=CameraSelector.LENS_FACING_BACK; //Default Back Camera
+    boolean start=true,flipX=true;
+    int cam_face=CameraSelector.LENS_FACING_FRONT; //Default Back Camera
 
     int[] intValues;
     int inputSize=112;  //Input size for model
